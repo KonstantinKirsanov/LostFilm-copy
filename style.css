@@ -1,0 +1,259 @@
+﻿#root {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	background: url(images/KJJ.jpg) no-repeat;
+	background-position: top center;
+	width: 1200px;
+	height: 5000px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.menu {
+	background-color: white;
+	box-shadow: 0px 0px 4px #767676;
+	margin: 3px;
+	padding: 3px;
+}
+
+.menu a {
+	font-weight: 600;
+	padding: 5px;
+}
+
+.mens {
+	background-color: white;
+	box-shadow: 0px 0px 4px #767676;
+}
+
+#first {
+	margin-top: 300px;
+	margin-left: 110px;
+	width: 450px;
+}
+
+#frst div {
+	display: inline-block;
+	height: 20px;
+}
+
+#frst input {
+	margin-left: -7px;
+	margin-right: -3px;
+}
+
+input {
+	box-shadow: 0px 0px 4px #767676;
+    border: 1px solid #f2f2f2;
+	width: 200px;
+	height: 22px;
+	background-color: #f2f2f2;
+	padding-left: 5px;
+}
+
+#padla {
+	width: 30px;
+	background-color: #f2f2f2;
+	color: white;
+	margin-left: -4px;
+	vertical-align: -5.5px;
+}
+
+.zagolovok {
+	font-size: 14px;
+	background-color: #f2f2f2;
+	width: 218px;
+	border-top: 3px solid #f2f2f2;
+	border-bottom: 1px solid #d3d3d4;
+	padding: 8px;
+	padding-left: 10px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.podzagolovok {
+	font-size: 12px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.podzagolovok:hover {
+	text-decoration: underline;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 6px solid black;
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+}
+
+#firsthr {
+	border-bottom: 1px solid #d3d3d4;
+	border-height: 150px;
+}
+
+.zagolovokk {
+	font-size: 14px;
+	background-color: #f2f2f2;
+	width: 222px;
+	border-top: 3px solid #f2f2f2;
+	border-bottom: 1px solid #d3d3d4;
+	padding: 8px;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+#ffind {
+	margin-bottom: 4px;
+	vertical-align: bottom;
+	margin-left: 0px;
+	margin-top: 5px;
+	background-color: #f2f2f2;
+}
+
+#second {
+	margin-left: 110px;
+	float: left;
+	display: inline-block;
+	width: 236px;
+	padding-bottom: 5px;
+	margin-top: 3px;
+}
+
+#second div {
+	display: inline-block;
+}
+
+#lastwindow {
+	display: inline-block;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.nameofserial {
+	vertical-align: +5.5px;
+}
+
+.neew {
+	float: left;
+	padding: 2px;
+	padding-left: 7px;
+	width: 227px;
+	font-size: 15px;
+	height: 48px;
+	padding-top: 9px;
+}
+
+.neew:hover {
+	background-color: #f2f2f2;
+}
+
+#TOtDY {
+	padding-bottom: 15px;
+}
+
+#TOtDY img {
+	vertical-align: +4px;	
+}
+
+#loginmenu {
+	background-color: #f2f2f2;
+	display: inline-block;
+	width: 240px;
+	height: 35px;
+	padding-top: 20px; 
+	color: #3498dc;
+	
+	box-shadow: 0px 0px 4px #767676;
+	margin-top: 3px;
+	margin-bottom: 6px;
+}
+
+#vhod {
+	border-right: 2px solid #c2c2c2;
+	color: #3498dc;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#vhodd {
+	padding-left: 30px;
+	color: #3498dc;	
+}
+
+#news {
+	float: left;
+	width: 448px;
+	height: 600px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+#logginandnewTV { 
+	float: left;
+	width: 240px;
+}
+
+#logginandnewTV div { 
+	display: inline-block;
+}
+
+#lastiblock {
+	padding-bottom: 5px;
+}
+.engl {
+	font-size: 12px;
+	color: #9c9baa;
+	padding-left: 5px;
+	vertical-align: +4px;
+}
+
+.newserials {
+	margin-top: 15px;
+}
+
+.name {
+	padding-left: 5px;
+	height: 15px;
+}
+
+.kartinki {
+	position: relative;
+	width: 240px;
+	height: 143px;
+}
+
+.shadow {
+	background-color: black;
+	position: absolute;
+	bottom: 0px;
+	width: 240px;
+	height: 30px;
+	opacity: 0.75;
+}
+
+.numberofseria  {
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	color: white;
+	opacity: 1;
+}
+
+.dataofseria  {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	color: white;
+	opacity: 1;
+}
+
+
