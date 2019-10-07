@@ -11,7 +11,6 @@
 a {
 	text-decoration: none;
 	color: black;
-
 }
 
 .menu {
@@ -50,13 +49,13 @@ a {
 input {
 	box-shadow: 0px 0px 4px #767676;
     border: 1px solid #f2f2f2;
-	width: 200px;
+	width: 220px;
 	height: 22px;
 	background-color: #f2f2f2;
 	padding-left: 5px;
 }
 
-#padla {
+#poisk {
 	width: 30px;
 	background-color: #f2f2f2;
 	color: white;
@@ -64,196 +63,308 @@ input {
 	vertical-align: -5.5px;
 }
 
-.zagolovok {
-	font-size: 14px;
-	background-color: #f2f2f2;
-	width: 218px;
-	border-top: 3px solid #f2f2f2;
-	border-bottom: 1px solid #d3d3d4;
-	padding: 8px;
-	padding-left: 10px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	.zagolovok {
+		font-size: 14px;
+		background-color: #f2f2f2;
+		width: 218px;
+		border-top: 3px solid #f2f2f2;
+		border-bottom: 1px solid #d3d3d4;
+		padding: 8px;
+		padding-left: 10px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	.podzagolovok {
+		font-size: 12px;
+		margin-left: 15px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.podzagolovok:hover {
+		text-decoration: underline;
+	}
+
+	.triangle {
+		width: 0;
+		height: 0;
+		border-left: 6px solid black;
+		border-bottom: 4px solid transparent;
+		border-top: 4px solid transparent;
+	}
+
+	#firsthr {
+		border-bottom: 1px solid #d3d3d4;
+		border-height: 150px;
+	}
+
+	.zagolovokk {
+		font-size: 14px;
+		background-color: #f2f2f2;
+		width: 222px;
+		border-top: 3px solid #f2f2f2;
+		border-bottom: 1px solid #d3d3d4;
+		padding: 8px;
+		padding-left: 10px;
+		font-weight: 600;
+	}
+
+	#ffind {
+		margin-bottom: 4px;
+		vertical-align: bottom;
+		margin-left: 0px;
+		margin-top: 5px;
+		background-color: #f2f2f2;
+	}
+
+	#second {
+		margin-left: 110px;
+		float: left;
+		display: inline-block;
+		width: 236px;
+		padding-bottom: 5px;
+		margin-top: 3px;
+	}
+
+	#second div {
+		display: inline-block;
+	}
+
+	#lastwindow {
+		display: inline-block;
+		float: left;
+		padding-bottom: 10px;
+	}
+
+	.nameofserial {
+		vertical-align: +5.5px;
+	}
+
+	.neew {
+		float: left;
+		padding: 2px;
+		padding-left: 7px;
+		width: 227px;
+		font-size: 15px;
+		height: 48px;
+		padding-top: 9px;
+	}
+
+	.neew:hover {
+		background-color: #f2f2f2;
+	}
+
+	#TOtDY {
+		padding-bottom: 15px;
+	}
+
+	#TOtDY img {
+		vertical-align: +4px;	
+	}
+
+#centerblock {
+	float: left;
+	width: 474px;
+	margin-left: 6px;
+	margin-right: 6px;
+	padding: 0px;
 }
 
-.podzagolovok {
-	font-size: 12px;
-	margin-left: 15px;
+#centerblock a {
+	font-weight: 400;
+}
+
+.centerblockzagolovki {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 
-.podzagolovok:hover {
+.square {																		
+	display: inline-block;
+	width: 5px;
+	height: 40px;
+	background-color: red;
+}
+
+.centerblockzagolovok {
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: +15px;
+	padding-left: 5px;
+}
+
+.centerblockzagolovok a {
+	color: red;
+}
+
+.centerblockzagolovok a:hover {
+	color: #2980b9;
 	text-decoration: underline;
 }
 
-.triangle {
-	width: 0;
-	height: 0;
-	border-left: 6px solid black;
-	border-bottom: 4px solid transparent;
-	border-top: 4px solid transparent;
+.cinemanews {
+	display: inline-block;
 }
 
-#firsthr {
-	border-bottom: 1px solid #d3d3d4;
-	border-height: 150px;
+.newspicture {
+	float: left;	
+	padding: 25px 15px;
+	background-color: #f1f1f1;
 }
 
-.zagolovokk {
+.newszagolovoki {
+	margin-left: 5px;
+	float: left;
+	height: 250px;
+	width: 280px;
+}
+.newszagolovok {
+	text-indent: -5px;
+	margin-left: 5px;
+	padding-left: 5px;
 	font-size: 14px;
-	background-color: #f2f2f2;
-	width: 222px;
-	border-top: 3px solid #f2f2f2;
-	border-bottom: 1px solid #d3d3d4;
-	padding: 8px;
-	padding-left: 10px;
-	font-weight: 600;
-}
-
-#ffind {
-	margin-bottom: 4px;
-	vertical-align: bottom;
-	margin-left: 0px;
-	margin-top: 5px;
-	background-color: #f2f2f2;
-}
-
-#second {
-	margin-left: 110px;
-	float: left;
-	display: inline-block;
-	width: 236px;
+	color: #blue;
+	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-top: 3px;
+	border-top: 1px solid #f2f2f2;	
+	height: 31px;
+}
+.newszagolovok:last-child {
+	border-bottom: 1px solid #f2f2f2;		
+}
+.newszagolovok a {
+	color: #98989b;
 }
 
-#second div {
+.serialnews {
 	display: inline-block;
+	margin-left: 0px;		
 }
 
-#lastwindow {
-	display: inline-block;
+.serialnews a {
+	width: 212px;
 	float: left;
-	padding-bottom: 10px;
+	padding: 10px 10px 10px 15px;
 }
 
-.nameofserial {
-	vertical-align: +5.5px;
+.serialnews a:hover {
+	background-color: #f1f1f1;	
+}
+.snfirststyle {
+	margin-bottom: 5px;	
 }
 
-.neew {
-	float: left;
-	padding: 2px;
-	padding-left: 7px;
-	width: 227px;
-	font-size: 15px;
-	height: 48px;
-	padding-top: 9px;
+.snsecondstyle {
+	font-size: 14px;
+	color: #666666;	
+	margin-bottom: 5px;
 }
 
-.neew:hover {
-	background-color: #f2f2f2;
-}
+.snthirdstyle {
+	font-size: 13px;
+	color: #666666;	
 
-#TOtDY {
-	padding-bottom: 15px;
 }
-
-#TOtDY img {
-	vertical-align: +4px;	
-}
-
-#loginmenu {
-	background-color: #f2f2f2;
-	display: inline-block;
-	width: 240px;
-	height: 35px;
-	padding-top: 20px; 
-	color: #3498dc;
-	
-	box-shadow: 0px 0px 4px #767676;
-	margin-top: 3px;
-	margin-bottom: 6px;
-}
-
-#vhod {
-	border-right: 2px solid #c2c2c2;
-	color: #3498dc;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-#vhodd {
-	padding-left: 30px;
-	color: #3498dc;	
-}
-
-#news {
-	float: left;
-	width: 448px;
-	height: 600px;
-	margin-left: 6px;
-	margin-right: 6px;
-}
-
-#logginandnewTV { 
-	float: left;
-	width: 240px;
-}
-
-#logginandnewTV div { 
-	display: inline-block;
-}
-
-#lastiblock {
-	padding-bottom: 5px;
-}
-.engl {
+.newspodzagolovok {
+	margin-left: 10px;
 	font-size: 12px;
-	color: #9c9baa;
-	padding-left: 5px;
-	vertical-align: +4px;
+	color: #6d95d5;
+	text-decoration: underline;
+	font-weight: bolder;
 }
 
-.newserials {
-	margin-top: 15px;
+.newspodzagolovok:hover {
+	color: #196a9e;
+	text-decoration: none;
 }
 
-.name {
-	padding-left: 5px;
-	height: 15px;
-}
 
-.kartinki {
-	position: relative;
-	width: 240px;
-	height: 143px;
-}
+	#loginmenu {
+		background-color: #f2f2f2;
+		display: inline-block;
+		width: 240px;
+		height: 35px;
+		padding-top: 20px; 
+		color: #3498dc;
+		
+		box-shadow: 0px 0px 4px #767676;
+		margin-top: 3px;
+		margin-bottom: 6px;
+	}
 
-.shadow {
-	background-color: black;
-	position: absolute;
-	bottom: 0px;
-	width: 240px;
-	height: 30px;
-	opacity: 0.75;
-}
+	#vhod {
+		border-right: 2px solid #c2c2c2;
+		color: #3498dc;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 
-.numberofseria  {
-	position: absolute;
-	bottom: 5px;
-	left: 10px;
-	color: white;
-	opacity: 1;
-}
+	#vhodd {
+		padding-left: 30px;
+		color: #3498dc;	
+	}
 
-.dataofseria  {
-	position: absolute;
-	bottom: 5px;
-	right: 10px;
-	color: white;
-	opacity: 1;
-}
+
+	#logginandnewTV { 
+		float: left;
+		width: 240px;
+	}
+
+	#logginandnewTV div { 
+		display: inline-block;
+	}
+
+	#lastiblock {
+		padding-bottom: 5px;
+	}
+
+	.engl {
+		font-size: 12px;
+		color: #9c9baa;
+		padding-left: 5px;
+		vertical-align: +4px;
+	}
+
+	.newserials {
+		margin-top: 15px;
+	}
+
+	.name {
+		padding-left: 5px;
+		height: 15px;
+	}
+
+	.kartinki {
+		position: relative;
+		width: 240px;
+		height: 143px;
+	}
+
+	.shadow {
+		background-color: black;
+		position: absolute;
+		bottom: 0px;
+		width: 240px;
+		height: 30px;
+		opacity: 0.75;
+	}
+
+	.numberofseria  {
+		position: absolute;
+		bottom: 5px;
+		left: 10px;
+		color: white;
+		opacity: 1;
+	}
+
+	.dataofseria  {
+		position: absolute;
+		bottom: 5px;
+		right: 10px;
+		color: white;
+		opacity: 1;
+	}
+
 
 
