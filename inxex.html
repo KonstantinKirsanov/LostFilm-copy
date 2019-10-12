@@ -3,21 +3,54 @@
 	<head>
 		<meta charset="UTG-8"/>
 		<title>Lostfilm.copy. Best TV series. Fake site - source of foreign TV series</title>
-		<meta name="keywords" content: "lostfilm lost film сериалы сериал лост фильм лостфильм Игра престолов">
-		<meta name="description" content: "Lostfilm.copy. Best TV series. Fake site - source of foreign TV series">
+		<meta name="keywords" content="lostfilm lost film сериалы сериал лост фильм лостфильм Игра престолов">
+		<meta name="description" content="Lostfilm.copy. Best TV series. Fake site - source of foreign TV series">
 		<link href="style.css" rel="stylesheet" type="text/css"/>
 		<link rel="icon" href="images/LF.jpg" />
-	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"> </script> 
+		<script type="text/javascript"> 
+            function showimages (x) {
+                $("#img_1").hide();
+                $("#img_2").hide();
+                $("#img_3").hide();
+                $("#img_4").hide();
+                $("#img_5").hide();
+                $("#img_6").hide();
+				$("#img_" + x).show();
+			}
+				var counter=-1;
+			function timer () {
+				counter++;
+				var y=counter%6+1;
+				$("#img_1").hide();
+                $("#img_2").hide();
+                $("#img_3").hide();
+                $("#img_4").hide();
+                $("#img_5").hide();
+                $("#img_6").hide();
+				$("#img_" + y).show();
+				newszag_1.setAttribute("class", "newszagolovok newszag_grey");
+				newszag_2.setAttribute("class", "newszagolovok newszag_grey");
+				newszag_3.setAttribute("class", "newszagolovok newszag_grey");
+				newszag_4.setAttribute("class", "newszagolovok newszag_grey");
+				newszag_5.setAttribute("class", "newszagolovok newszag_grey");
+				newszag_6.setAttribute("class", "newszagolovok newszag_grey");
+				$("#newszag_" + y).attr("class", "newszagolovok newszag_black");
+				setTimeout("timer()",5000);
+				if (counter>=6) counter=1;
+			}
+            
+        </script>
 	</head>
-	<body>
+	<body style="font-family: Arial, Helvetica, FreeSans" onload="timer()">
 		<div id="root">
 			<div id="frst">
 				<div class="menu" id="first"> 
-					<a href="https://www.lostfilm.tv/series/"> Сериалы </a>
-					<a href="https://www.lostfilm.tv/news/"> Новости </a>
-					<a href="https://www.lostfilm.tv/video/"> Видео </a>					
-					<a href="https://www.lostfilm.tv/new/"> Новинки </a>
-					<a href="https://www.lostfilm.tv/schedule/"> Расписание </a>
+					<div> <a href="https://www.lostfilm.tv/series/" > Сериалы </a> </div>
+					<div> <a href="https://www.lostfilm.tv/news/"> Новости </a> </div>
+                    <div><a href="https://www.lostfilm.tv/video/"> Видео </a>					 </div>
+                    <div><a href="https://www.lostfilm.tv/new/"> Новинки </a> </div>
+                    <div><a href="https://www.lostfilm.tv/schedule/"> Расписание </a> </div>
 				</div>
 				<div>
 					<input type="text" placeholder="Поиск" size="20" name="q"> 
@@ -254,10 +287,7 @@
 				<div class="podzagolovok"> <a href="https://www.lostfilm.tv/series/" > ВСЕ СЕРИАЛЫ </a> </div>
 				<div class="triangle"> </div>
 			</div>
-			
-			
-			
-			
+						
 			<div class="menu" id="centerblock">
 				<div class="centerblockzagolovki">
 					<div class="square"> </div>
@@ -266,21 +296,21 @@
 				<div class="cinemanews">
 					<div class="newspicture">
 						<div class="newsimages">	
-							<div> <img src="./images/1news.jpg"> </div>
-							<div> <img src="./images/2news.jpg" style="display:none"> </div>
-							<div> <img src="./images/3news.jpg" style="display:none"> </div>
-							<div> <img src="./images/4news.jpg" style="display:none"> </div>
-							<div> <img src="./images/5news.jpg" style="display:none"> </div>
-							<div> <img src="./images/6news.jpg" style="display:none"> </div>
+							<div> <img src="./images/1news.jpg" id="img_1"> </div>
+							<div> <img src="./images/2news.jpg" id="img_2"> </div>
+							<div> <img src="./images/3news.jpg" id="img_3"> </div>
+							<div> <img src="./images/4news.jpg" id="img_4"> </div>
+							<div> <img src="./images/5news.jpg" id="img_5"> </div>
+							<div> <img src="./images/6news.jpg" id="img_6"> </div>
 						</div>
 					</div>
-					<div class="newszagolovoki">
-						<div class="newszagolovok"> <a href="https://lostfilm.info/news/id36705/" > Двойной обзор «К звездам» и «Акварель» </a> </div>
-						<div class="newszagolovok"> <a href="https://lostfilm.info/news/id36715/" > Джей и молчаливый Боб попадут на Аллею славы </a>  </div>
-						<div class="newszagolovok"> <a href="https://lostfilm.info/news/id36711/" > Путешествие к звездам </a> </div>
-						<div class="newszagolovok"> <a href="https://lostfilm.info/news/id36713/" > Кончаловский привезет «Грех» на Римский кинофестиваль </a> </div>
-						<div class="newszagolovok"> <a href="https://lostfilm.info/news/id36709/" > Инспектор Гаджет спешит на помощь </a> </div>
-						<div class="newszagolovok"> <a href="https://lostfilm.info/news/id36702/" > Сэм Рэйми нашел желающих отправиться в пятьдесят штатов страха </a> </div>					
+					<div id="newszagolovki"> 
+						<a href="https://lostfilm.info/news/id36705/" > <div onmouseover="showimages(1)" class="newszagolovok" id="newszag_1">Двойной обзор «К звездам» и «Акварель»</div> </a>
+						<a href="https://lostfilm.info/news/id36715/" > <div onmouseover="showimages(2)" class="newszagolovok" id="newszag_2">Джей и молчаливый Боб попадут на Аллею славы </div> </a>
+						<a href="https://lostfilm.info/news/id36711/" > <div onmouseover="showimages(3)" class="newszagolovok" id="newszag_3">Путешествие к звездам</div></a>
+						<a href="https://lostfilm.info/news/id36713/" > <div onmouseover="showimages(4)" class="newszagolovok" id="newszag_4">Кончаловский привезет «Грех» на Римский кинофестиваль</div></a>
+						<a href="https://lostfilm.info/news/id36709/" > <div onmouseover="showimages(5)" class="newszagolovok" id="newszag_5">Инспектор Гаджет спешит на помощь</div></a>
+						<a href="https://lostfilm.info/news/id36702/" > <div onmouseover="showimages(6)" class="newszagolovok lastnewszagolovok" id="newszag_6">Сэм Рэйми нашел желающих отправиться в пятьдесят штатов страха</div></a>
 					</div>
 					<br>
 				</div>
@@ -338,7 +368,7 @@
 						<div class="snthirdstyle"> 03 октября 2019 г. </div>
 					</a>
 				</div>
-				<a href="https://www.lostfilm.tv/news" class="newspodzagolovok"> ВСЕ НОВОСТИ </a>
+				<div class="newspodzagolovok"> <a href="https://www.lostfilm.tv/news"> ВСЕ НОВОСТИ </a></div>
 				<div class="centerblockzagolovki">
 					<div class="square"> </div>
 					<div class="centerblockzagolovok"> Популярное </div>
@@ -354,8 +384,8 @@
 				<a href="https://www.lostfilm.tv/news/id7638" style="display: none"> adsadsas </a>
 				<a href="https://www.lostfilm.tv/news/id7637" style="display: none"> asdsa </a>
 				<a href="https://www.lostfilm.tv/news/id7636" style="display: none"> asdsad </a>
-				
-				<a href="https://www.lostfilm.tv/news/type_55"class="newspodzagolovok"> ВСЕ ПОПУЛЯРНОЕ </a>
+
+				<div class="newspodzagolovok"> <a href="https://www.lostfilm.tv/news"> ВСЕ ПОПУЛЯРНОЕ </a></div>
 				
 				<div class="centerblockzagolovki">
 					<div class="square"> </div>
@@ -367,9 +397,7 @@
 				<div id="loginmenu">
 					<a href="#" id="vhod"> Вход </a>
 					<a href="#" id="vhodd"> Регистрация </a>
-				</div>
-				
-				
+				</div>			
 				
 				
 				<div class="mens" id="lastiblock">
@@ -391,5 +419,10 @@
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript">
+			function displayimage() {
+			$(".newszagolovoki")
+			}
+		</script>
 	</body>
 </html>
